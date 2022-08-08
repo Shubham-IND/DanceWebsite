@@ -17,3 +17,8 @@ ssh-keygen -t ed25519 -C "shubhamjee2003@gmail.com"
 cat  /c/Users/Shubh/.ssh/id_ed25519.pub
 /* code hai ye - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKhXblhkwb1P2Qvq8EbcrJ++9ZWh3+NU9pLd2lm4Zo4w shubhamjee2003@gmail.com
 */
+#To push this cheatsheet
+git status
+git add .
+git commit -m "Added Cheatsheet"
+git push origin master
