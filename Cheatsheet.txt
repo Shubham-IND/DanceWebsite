@@ -1,0 +1,19 @@
+
+git config --global user.name Shubham
+git config --global user.email Shubhamjee2003@gmail.com
+touch .gitignore
+git init
+git add .
+git commit -m "Initial Commit"
+git status # Just to See
+ git remote add origin git@github.com:Shubham-IND/DanceWebsite.git
+
+git push origin master
+ssh-keygen -t ed25519 -C "shubhamjee2003@gmail.com"
+/*
+{ /c/Users/Shubh/.ssh/id_ed25519
+}*/
+
+cat  /c/Users/Shubh/.ssh/id_ed25519.pub
+/* code hai ye - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKhXblhkwb1P2Qvq8EbcrJ++9ZWh3+NU9pLd2lm4Zo4w shubhamjee2003@gmail.com
+*/
